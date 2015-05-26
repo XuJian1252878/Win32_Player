@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CC22DC80-4F65-4BFE-A680-FA84D9991E97}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyRss</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Urlmon.lib;Winmm.lib;comctl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Urlmon.lib;comctl32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AppWelcomeDlg.cpp" />
+    <ClCompile Include="DeskTopSingleLrcDlg.cpp" />
+    <ClCompile Include="DeskTopSingleLrcDlgF.cpp" />
+    <ClCompile Include="FileEncode.cpp" />
+    <ClCompile Include="InitMusicPlayer.cpp" />
+    <ClCompile Include="InitRssReader.cpp" />
+    <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="MainDlgFunc.cpp" />
+    <ClCompile Include="MusicFunction.cpp" />
+    <ClCompile Include="MusicMessage.cpp" />
+    <ClCompile Include="MusicTabDlg.cpp" />
+    <ClCompile Include="MusicVolumeDlg.cpp" />
+    <ClCompile Include="RssFunction.cpp" />
+    <ClCompile Include="RssMessage.cpp" />
+    <ClCompile Include="RssSearchMsgDlg.cpp" />
+    <ClCompile Include="RssTabDlg.cpp" />
+    <ClCompile Include="SearchEditDlg.cpp" />
+    <ClCompile Include="SearchRssItemDlg.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppWelcomeDlg.h" />
+    <ClInclude Include="DeskTopSingleLrcDlg.h" />
+    <ClInclude Include="DeskTopSingleLrcDlgF.h" />
+    <ClInclude Include="FileEncode.h" />
+    <ClInclude Include="InitMusicPlayer.h" />
+    <ClInclude Include="InitRssReader.h" />
+    <ClInclude Include="MainDlg.h" />
+    <ClInclude Include="MainDlgFunc.h" />
+    <ClInclude Include="MusicFunction.h" />
+    <ClInclude Include="MusicMessage.h" />
+    <ClInclude Include="MusicTabDlg.h" />
+    <ClInclude Include="MusicVolumeDlg.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RssFunction.h" />
+    <ClInclude Include="RssMessage.h" />
+    <ClInclude Include="RssSearchMsgDlg.h" />
+    <ClInclude Include="RssTabDlg.h" />
+    <ClInclude Include="SearchEditDlg.h" />
+    <ClInclude Include="SearchRssItemDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyRss.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="PictureResource\add_file_icon_light.bmp" />
+    <Image Include="PictureResource\add_file_icon_press.bmp" />
+    <Image Include="PictureResource\add_rssfeed_light.bmp" />
+    <Image Include="PictureResource\add_rssfeed_press.bmp" />
+    <Image Include="PictureResource\appwelcomedlg_bkgnd.bmp" />
+    <Image Include="PictureResource\app_icon.ico" />
+    <Image Include="PictureResource\app_settingmenu_light.bmp" />
+    <Image Include="PictureResource\app_settingmenu_press.bmp" />
+    <Image Include="pictureresource\bitmap2.bmp" />
+    <Image Include="PictureResource\desktoplrc_light.bmp" />
+    <Image Include="PictureResource\desktoplrc_press.bmp" />
+    <Image Include="PictureResource\entermaindlg_light.bmp" />
+    <Image Include="PictureResource\entermaindlg_press.bmp" />
+    <Image Include="PictureResource\go_kj_icon_light.bmp" />
+    <Image Include="PictureResource\go_kj_icon_press.bmp" />
+    <Image Include="PictureResource\go_kt_icon_light.bmp" />
+    <Image Include="PictureResource\go_kt_icon_press.bmp" />
+    <Image Include="PictureResource\go_last_icon_light.bmp" />
+    <Image Include="PictureResource\go_last_icon_press.bmp" />
+    <Image Include="PictureResource\go_next_icon_light.bmp" />
+    <Image Include="PictureResource\go_next_press.bmp" />
+    <Image Include="PictureResource\main_bkgnd.bmp" />
+    <Image Include="PictureResource\min_to_taskbar_light.bmp" />
+    <Image Include="PictureResource\min_to_taskbar_press.bmp" />
+    <Image Include="PictureResource\min_to_tray.bmp" />
+    <Image Include="PictureResource\min_to_tray_light.bmp" />
+    <Image Include="PictureResource\min_to_tray_press.bmp" />
+    <Image Include="PictureResource\musictab_bkgnd.bmp" />
+    <Image Include="PictureResource\music_item_ico_light.bmp" />
+    <Image Include="PictureResource\pause_icon_light.bmp" />
+    <Image Include="PictureResource\pause_icon_press.bmp" />
+    <Image Include="PictureResource\play_icon_light.bmp" />
+    <Image Include="PictureResource\play_icon_press.bmp" />
+    <Image Include="PictureResource\rssfeed_fathernode.bmp" />
+    <Image Include="PictureResource\rssfeed_fathernode_notselect.bmp" />
+    <Image Include="PictureResource\rssfeed_fathernode_select.bmp" />
+    <Image Include="PictureResource\rssitem_notselect.bmp" />
+    <Image Include="PictureResource\rssitem_search_light.bmp" />
+    <Image Include="PictureResource\rssitem_search_press.bmp" />
+    <Image Include="PictureResource\rssitem_select.bmp" />
+    <Image Include="PictureResource\RssTab_Bkgnd.bmp" />
+    <Image Include="PictureResource\rss_startsearch_light.bmp" />
+    <Image Include="PictureResource\rss_startsearch_press.bmp" />
+    <Image Include="PictureResource\rss_viewdescription_light.bmp" />
+    <Image Include="PictureResource\rss_viewdescription_press.bmp" />
+    <Image Include="PictureResource\searchitem_quit_light.bmp" />
+    <Image Include="PictureResource\searchitem_quit_press.bmp" />
+    <Image Include="PictureResource\searchitem_start.bmp" />
+    <Image Include="PictureResource\search_icon_light.bmp" />
+    <Image Include="PictureResource\search_icon_press.bmp" />
+    <Image Include="PictureResource\startsearch_rssitem.bmp" />
+    <Image Include="PictureResource\stop_icon_light.bmp" />
+    <Image Include="PictureResource\stop_icon_press.bmp" />
+    <Image Include="PictureResource\tab_bitmap_click.bmp" />
+    <Image Include="PictureResource\tab_bitmap_musicplayer.bmp" />
+    <Image Include="PictureResource\tab_bitmap_rss.bmp" />
+    <Image Include="PictureResource\tab_bitmap_unclick.bmp" />
+    <Image Include="PictureResource\volume_icon_light.bmp" />
+    <Image Include="PictureResource\volume_icon_press.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicTabDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RssTabDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileEncode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlgFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicVolumeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeskTopSingleLrcDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitMusicPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchEditDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RssFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitRssReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeskTopSingleLrcDlgF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RssSearchMsgDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RssMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchRssItemDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWelcomeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicTabDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RssTabDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileEncode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlgFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicVolumeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeskTopSingleLrcDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitMusicPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchEditDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RssFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitRssReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeskTopSingleLrcDlgF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RssSearchMsgDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RssMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchRssItemDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppWelcomeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyRss.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="PictureResource\tab_bitmap_click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\tab_bitmap_unclick.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\tab_bitmap_musicplayer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pictureresource\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\tab_bitmap_rss.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\main_bkgnd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\go_next_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\go_next_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\play_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\play_icon_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\stop_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\stop_icon_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\volume_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\volume_icon_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\pause_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\pause_icon_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\go_kj_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\go_kj_icon_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\go_kt_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\go_kt_icon_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\go_last_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\go_last_icon_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\add_file_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\add_file_icon_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\music_item_ico_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\search_icon_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\search_icon_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\app_icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rssitem_notselect.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rssitem_select.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rssfeed_fathernode.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rssfeed_fathernode_select.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rssfeed_fathernode_notselect.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\musictab_bkgnd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\RssTab_Bkgnd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\min_to_tray.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\min_to_tray_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\min_to_tray_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\min_to_taskbar_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\min_to_taskbar_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\app_settingmenu_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\app_settingmenu_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\searchitem_start.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\searchitem_quit_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\searchitem_quit_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\add_rssfeed_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\add_rssfeed_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rss_startsearch_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rss_startsearch_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rss_viewdescription_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rss_viewdescription_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rssitem_search_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\rssitem_search_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\startsearch_rssitem.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\desktoplrc_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\desktoplrc_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\appwelcomedlg_bkgnd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\entermaindlg_light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="PictureResource\entermaindlg_press.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
